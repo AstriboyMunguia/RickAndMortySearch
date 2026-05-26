@@ -9,7 +9,7 @@ import Foundation
 
 struct CharacterResponseDTO: Decodable {
     let info: PageInfoDTO
-    let result: [CharacterDTO]
+    let results: [CharacterDTO]
 }
 
 struct PageInfoDTO: Decodable {
